@@ -1,0 +1,14 @@
+# Last changed: 2026-05-16T08:21:32Z
+cve_id,cvss_score,affected_library,affected_version,test_case_path,base_image
+base-eclipse-temurin17-alpine,0.0,baseline,n/a,claude/java/base-eclipse-temurin17-alpine,eclipse-temurin:17-alpine
+CVE-2021-44228,10.0,log4j-core,2.14.1,claude/java/CVE-2021-44228,eclipse-temurin:17-alpine
+CVE-2022-22965,9.8,spring-webmvc,5.3.17,claude/java/CVE-2022-22965,eclipse-temurin:17-alpine
+CVE-2017-5638,9.8,struts2-core,2.3.31,claude/java/CVE-2017-5638,eclipse-temurin:17-alpine
+CVE-2022-22963,9.8,spring-cloud-function-context,3.2.2,claude/java/CVE-2022-22963,eclipse-temurin:17-alpine
+CVE-2022-42889,9.8,commons-text,1.9,claude/java/CVE-2022-42889,eclipse-temurin:17-alpine
+CVE-2020-1938,9.8,tomcat-embed-core,9.0.30,claude/java/CVE-2020-1938,eclipse-temurin:17-alpine
+CVE-2019-17571,9.8,log4j,1.2.17,claude/java/CVE-2019-17571,eclipse-temurin:17-alpine
+CVE-2021-31805,9.8,struts2-core,2.5.29,claude/java/CVE-2021-31805,eclipse-temurin:17-alpine
+CVE-2016-4437,9.8,shiro-core,1.2.4,claude/java/CVE-2016-4437,eclipse-temurin:17-alpine
+CVE-2021-45046,9.0,log4j-core,2.15.0,claude/java/CVE-2021-45046,eclipse-temurin:17-alpine
+CVE-2020-36518,7.5,jackson-databind,2.13.2,claude/java/CVE-2020-36518,eclipse-temurin:17-alpine

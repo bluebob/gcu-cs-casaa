@@ -1,0 +1,12 @@
+cve_id,cvss_score,affected_library,affected_version,test_case_path,base_image
+base-node18-alpine,0.0,baseline,n/a,gemini/javascript/base-node18-alpine,node:18-alpine
+CVE-2024-21896,9.1,Node.js,"< 20.11.1",gemini/javascript/CVE-2024-21896,node:20-alpine
+CVE-2022-24999,7.5,qs,"< 6.10.3",gemini/javascript/CVE-2022-24999,node:18-alpine
+CVE-2017-16138,7.5,mime,"< 1.4.1",gemini/javascript/CVE-2017-16138,node:18-alpine
+CVE-2014-6394,7.5,serve-static,"< 0.8.4",gemini/javascript/CVE-2014-6394,node:18-alpine
+CVE-2022-31147,7.5,jquery-validation,"< 1.19.5",gemini/javascript/CVE-2022-31147,node:18-alpine
+CVE-2021-23632,6.6,git,"(npm package) <= 0.1.5",gemini/javascript/CVE-2021-23632,node:18-alpine
+CVE-2022-25881,7.5,http-cache-semantics,"< 4.1.1",gemini/javascript/CVE-2022-25881,node:18-alpine
+CVE-2024-43796,7.4,express,"< 4.20.0",gemini/javascript/CVE-2024-43796,node:18-alpine
+CVE-2024-43800,7.5,serve-static,"< 1.16.0",gemini/javascript/CVE-2024-43800,node:18-alpine
+base-node20-alpine,0.0,baseline,n/a,gemini/javascript/base-node20-alpine,node:20-alpine

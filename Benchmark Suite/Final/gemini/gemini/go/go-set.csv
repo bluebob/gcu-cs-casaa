@@ -1,0 +1,24 @@
+cve_id,cvss_score,affected_library,affected_version,test_case_path,base_image
+CVE-2023-39325,7.5,Go,"< 1.21.3",gemini/go/CVE-2023-39325,golang:1.21.2-alpine3.18
+CVE-2022-27664,7.5,Go,"< 1.19.1",gemini/go/CVE-2022-27664,golang:1.19.0-alpine3.16
+CVE-2023-5528,8.8,Kubernetes,"< 1.28.4 (on Windows)",gemini/go/CVE-2023-5528,golang:1.21-alpine3.18
+CVE-2022-41720,7.5,Go,"< 1.19.4 (on Windows)",gemini/go/CVE-2022-41720,golang:1.19.3-alpine3.16
+CVE-2022-30631,7.5,Go,"< 1.18.4",gemini/go/CVE-2022-30631,golang:1.18.3-alpine3.16
+CVE-2022-32189,7.5,Go,"< 1.18.5",gemini/go/CVE-2022-32189,golang:1.18.4-alpine3.16
+CVE-2023-24534,7.5,Go,"< 1.20.3",gemini/go/CVE-2023-24534,golang:1.20.2-alpine3.17
+CVE-2022-23806,9.1,Go,"< 1.17.7",gemini/go/CVE-2022-23806,golang:1.17.6-alpine3.15
+CVE-2024-3566,9.8,Go,"< 1.22.2 (on Windows)",gemini/go/CVE-2024-3566,golang:1.22.1-alpine3.19
+CVE-2026-25679,7.5,Go,"< 1.26.1",gemini/go/CVE-2026-25679,golang:1.26.0-alpine3.23
+CVE-2026-27140,8.8,Go,,gemini/go/CVE-2026-27140,golang:1.21-alpine3.18
+CVE-2025-4674,7.8,Go,"< 1.24.5",gemini/go/CVE-2025-4674,golang:1.24.4-alpine3.21
+base-golang1.21.2-alpine3.18,0.0,baseline,n/a,gemini/go/base-golang1.21.2-alpine3.18,golang:1.21.2-alpine3.18
+base-golang1.19.0-alpine3.16,0.0,baseline,n/a,gemini/go/base-golang1.19.0-alpine3.16,golang:1.19.0-alpine3.16
+base-golang1.21-alpine3.18,0.0,baseline,n/a,gemini/go/base-golang1.21-alpine3.18,golang:1.21-alpine3.18
+base-golang1.19.3-alpine3.16,0.0,baseline,n/a,gemini/go/base-golang1.19.3-alpine3.16,golang:1.19.3-alpine3.16
+base-golang1.18.3-alpine3.16,0.0,baseline,n/a,gemini/go/base-golang1.18.3-alpine3.16,golang:1.18.3-alpine3.16
+base-golang1.18.4-alpine3.16,0.0,baseline,n/a,gemini/go/base-golang1.18.4-alpine3.16,golang:1.18.4-alpine3.16
+base-golang1.20.2-alpine3.17,0.0,baseline,n/a,gemini/go/base-golang1.20.2-alpine3.17,golang:1.20.2-alpine3.17
+base-golang1.17.6-alpine3.15,0.0,baseline,n/a,gemini/go/base-golang1.17.6-alpine3.15,golang:1.17.6-alpine3.15
+base-golang1.22.1-alpine3.19,0.0,baseline,n/a,gemini/go/base-golang1.22.1-alpine3.19,golang:1.22.1-alpine3.19
+base-golang1.26.0-alpine3.23,0.0,baseline,n/a,gemini/go/base-golang1.26.0-alpine3.23,golang:1.26.0-alpine3.23
+base-golang1.24.4-alpine3.21,0.0,baseline,n/a,gemini/go/base-golang1.24.4-alpine3.21,golang:1.24.4-alpine3.21

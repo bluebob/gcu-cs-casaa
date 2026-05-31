@@ -1,0 +1,14 @@
+cve_id,cvss_score,affected_library,affected_version,test_case_path,base_image
+base-alpine3.19,0.0,baseline,n/a,claude/cpp/base-alpine3.19,alpine:3.19
+CVE-2021-3711,9.8,openssl,1.1.1k,claude/cpp/CVE-2021-3711,alpine:3.19
+CVE-2023-38545,9.8,curl,7.88.0,claude/cpp/CVE-2023-38545,alpine:3.19
+CVE-2022-37434,9.8,zlib,1.2.12,claude/cpp/CVE-2022-37434,alpine:3.19
+CVE-2022-25235,9.8,expat,2.4.4,claude/cpp/CVE-2022-25235,alpine:3.19
+CVE-2021-3520,9.8,lz4,1.9.3,claude/cpp/CVE-2021-3520,alpine:3.19
+CVE-2019-12900,9.8,bzip2,1.0.6,claude/cpp/CVE-2019-12900,alpine:3.19
+CVE-2022-1586,9.1,pcre2,10.39,claude/cpp/CVE-2022-1586,alpine:3.19
+CVE-2022-42915,8.1,curl,7.85.0,claude/cpp/CVE-2022-42915,alpine:3.19
+CVE-2022-3602,7.5,openssl,3.0.6,claude/cpp/CVE-2022-3602,alpine:3.19
+CVE-2022-0778,7.5,openssl,1.1.1m,claude/cpp/CVE-2022-0778,alpine:3.19
+CVE-2023-0286,7.4,openssl,1.1.1s,claude/cpp/CVE-2023-0286,alpine:3.19
+CVE-2022-3786,7.5,openssl,3.0.6,claude/cpp/CVE-2022-3786,alpine:3.19

@@ -1,0 +1,14 @@
+cve_id,cvss_score,affected_library,affected_version,test_case_path,base_image
+base-node20-alpine,0.0,baseline,n/a,claude/javascript/base-node20-alpine,node:20-alpine
+CVE-2021-3918,9.8,json-schema,0.3.0,claude/javascript/CVE-2021-3918,node:20-alpine
+CVE-2022-37601,9.8,loader-utils,2.0.2,claude/javascript/CVE-2022-37601,node:20-alpine
+CVE-2021-44906,9.8,minimist,1.2.5,claude/javascript/CVE-2021-44906,node:20-alpine
+CVE-2019-10744,9.1,lodash,4.17.11,claude/javascript/CVE-2019-10744,node:20-alpine
+CVE-2022-46175,8.8,json5,2.2.1,claude/javascript/CVE-2022-46175,node:20-alpine
+CVE-2022-24999,7.5,qs,6.10.2,claude/javascript/CVE-2022-24999,node:20-alpine
+CVE-2022-31129,7.5,moment,2.29.3,claude/javascript/CVE-2022-31129,node:20-alpine
+CVE-2021-27290,7.5,ssri,8.0.0,claude/javascript/CVE-2021-27290,node:20-alpine
+CVE-2022-25881,7.5,http-cache-semantics,4.1.0,claude/javascript/CVE-2022-25881,node:20-alpine
+CVE-2022-38900,7.5,decode-uri-component,0.2.0,claude/javascript/CVE-2022-38900,node:20-alpine
+CVE-2021-23337,7.2,lodash,4.17.20,claude/javascript/CVE-2021-23337,node:20-alpine
+CVE-2021-23358,7.2,underscore,1.12.0,claude/javascript/CVE-2021-23358,node:20-alpine

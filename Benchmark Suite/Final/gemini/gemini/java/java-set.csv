@@ -1,0 +1,17 @@
+cve_id,cvss_score,affected_library,affected_version,test_case_path,base_image
+CVE-2022-22965,9.8,Spring Framework,"5.3.0 - 5.3.17",gemini/java/CVE-2022-22965,tomcat:9.0-jdk11-openjdk-slim
+CVE-2026-22732,9.1,Spring Security,"5.7.0 - 5.7.21",gemini/java/CVE-2026-22732,eclipse-temurin:17-jdk-alpine
+CVE-2025-46295,9.8,Apache Commons Text,"< 1.10.0",gemini/java/CVE-2025-46295,eclipse-temurin:17-jdk-alpine
+CVE-2025-53192,8.8,Apache Commons OGNL,"(all)",gemini/java/CVE-2025-53192,eclipse-temurin:17-jdk-alpine
+CVE-2024-26308,7.5,Apache Commons Compress,"1.21 - 1.25",gemini/java/CVE-2024-26308,eclipse-temurin:17-jdk-alpine
+CVE-2024-47883,9.8,OpenRefine Butterfly,"< 1.2.6",gemini/java/CVE-2024-47883,eclipse-temurin:17-jdk-alpine
+CVE-2026-35229,7.5,Oracle DB,"19.3 - 19.30",gemini/java/CVE-2026-35229,eclipse-temurin:17-jdk-alpine
+CVE-2026-35227,7.5,Oracle JDK,"8u481, 11.0.30, 17.0.18, 21.0.10, 25.0.2",gemini/java/CVE-2026-35227,eclipse-temurin:17-jdk-alpine
+CVE-2026-35228,7.4,Oracle JDK,"8u441, 11.0.26, 17.0.14, 21.0.6",gemini/java/CVE-2026-35228,eclipse-temurin:17-jdk-alpine
+CVE-2026-21932,7.4,Oracle JDK,"8u471, 11.0.29, 17.0.17, 21.0.9, 25.0.1",gemini/java/CVE-2026-21932,eclipse-temurin:17-jdk-alpine
+CVE-2025-61881,7.7,Oracle DB,"19.3 - 19.28",gemini/java/CVE-2025-61881,eclipse-temurin:17-jdk-alpine
+CVE-2024-22233,7.5,Spring Framework,"6.0.15, 6.1.2",gemini/java/CVE-2024-22233,eclipse-temurin:17-jdk-alpine
+base-tomcat9.0-jdk11-openjdk-slim,0.0,baseline,n/a,gemini/java/base-tomcat9.0-jdk11-openjdk-slim,tomcat:9.0-jdk11-openjdk-slim
+
+base-eclipse-temurin-17-jre-alpine,0.0,baseline,n/a,gemini/java/base-eclipse-temurin-17-jre-alpine,eclipse-temurin:17-jre-alpine
+base-eclipse-temurin-17-jdk-alpine,0.0,baseline,n/a,gemini/java/base-eclipse-temurin-17-jdk-alpine,eclipse-temurin:17-jdk-alpine

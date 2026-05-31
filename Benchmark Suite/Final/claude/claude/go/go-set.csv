@@ -1,0 +1,17 @@
+# Last changed: 2026-05-16T08:21:32Z
+cve_id,cvss_score,affected_library,affected_version,test_case_path,base_image
+base-golang1.21-alpine,0.0,baseline,n/a,claude/go/base-golang1.21-alpine,golang:1.21-alpine
+base-golang1.15.8-alpine3.13,0.0,baseline,n/a,claude/go/base-golang1.15.8-alpine3.13,golang:1.15.8-alpine3.13
+base-golang1.16.4-alpine3.13,0.0,baseline,n/a,claude/go/base-golang1.16.4-alpine3.13,golang:1.16.4-alpine3.13
+base-golang1.17.4-alpine3.14,0.0,baseline,n/a,claude/go/base-golang1.17.4-alpine3.14,golang:1.17.4-alpine3.14
+CVE-2023-49569,9.8,github.com/go-git/go-git/v5,v5.10.1,claude/go/CVE-2023-49569,golang:1.21-alpine
+CVE-2021-3121,8.6,github.com/gogo/protobuf,v1.3.1,claude/go/CVE-2021-3121,golang:1.21-alpine
+CVE-2022-28948,7.5,gopkg.in/yaml.v3,v3.0.0,claude/go/CVE-2022-28948,golang:1.21-alpine
+CVE-2022-32149,7.5,golang.org/x/text,v0.3.7,claude/go/CVE-2022-32149,golang:1.21-alpine
+CVE-2022-41723,7.5,golang.org/x/net,v0.6.0,claude/go/CVE-2022-41723,golang:1.21-alpine
+CVE-2023-44487,7.5,golang.org/x/net,v0.16.0,claude/go/CVE-2023-44487,golang:1.21-alpine
+CVE-2020-26160,7.5,github.com/dgrijalva/jwt-go,v3.2.0,claude/go/CVE-2020-26160,golang:1.21-alpine
+CVE-2020-27813,7.5,github.com/gorilla/websocket,v1.4.0,claude/go/CVE-2020-27813,golang:1.21-alpine
+CVE-2021-27918,7.5,Go stdlib (encoding/xml),1.15.8,claude/go/CVE-2021-27918,golang:1.15.8-alpine3.13
+CVE-2021-33196,7.5,Go stdlib (archive/zip),1.16.4,claude/go/CVE-2021-33196,golang:1.16.4-alpine3.13
+CVE-2021-44716,7.5,Go stdlib (net/http),1.17.4,claude/go/CVE-2021-44716,golang:1.17.4-alpine3.14

@@ -1,0 +1,21 @@
+cve_id,cvss_score,affected_library,affected_version,test_case_path,base_image
+base-python3.11-alpine,0.0,baseline,n/a,gemini/python/base-python3.11-alpine,python:3.11-alpine
+CVE-2025-56005,9.8,ply,"3.11",gemini/python/CVE-2025-56005,python:3.11-alpine
+CVE-2020-27619,9.8,python,"< 3.9.1",gemini/python/CVE-2020-27619,python:3.9.0-alpine
+CVE-2025-43859,9.1,h11,"< 0.16.0",gemini/python/CVE-2025-43859,python:3.11-alpine
+CVE-2024-25128,9.1,flask-appbuilder,"< 4.3.11",gemini/python/CVE-2024-25128,python:3.11-alpine
+CVE-2015-20107,7.6,python,"< 3.10.9",gemini/python/CVE-2015-20107,python:3.10.8-alpine
+CVE-2024-6232,7.5,python,"< 3.12.5",gemini/python/CVE-2024-6232,python:3.12.4-alpine
+CVE-2024-24762,7.5,python-multipart,"<= 0.0.6",gemini/python/CVE-2024-24762,python:3.11-alpine
+CVE-2024-47081,7.5,requests,"< 2.32.4",gemini/python/CVE-2024-47081,python:3.11-alpine
+CVE-2019-20907,7.5,python,"< 3.8.4",gemini/python/CVE-2019-20907,python:3.8.3-alpine
+CVE-2020-26116,7.2,python,"< 3.8.5",gemini/python/CVE-2020-26116,python:3.8.4-alpine
+CVE-2026-30922,7.5,pyasn1,"<= 0.6.2",gemini/python/CVE-2026-30922,python:3.11-alpine
+CVE-2024-12254,8.1,python,"< 3.12.0 (on macOS/Linux) and using asyncio",gemini/python/CVE-2024-12254,python:3.11.8-alpine
+base-python3.9.0-alpine,0.0,baseline,n/a,gemini/python/base-python3.9.0-alpine,python:3.9.0-alpine
+base-python3.10.8-alpine,0.0,baseline,n/a,gemini/python/base-python3.10.8-alpine,python:3.10.8-alpine
+base-python3.8.4-alpine,0.0,baseline,n/a,gemini/python/base-python3.8.4-alpine,python:3.8.4-alpine
+base-python3.12.5-alpine,0.0,baseline,n/a,gemini/python/base-python3.12.5-alpine,python:3.12.5-alpine
+base-python3.12.4-alpine,0.0,baseline,n/a,gemini/python/base-python3.12.4-alpine,python:3.12.4-alpine
+base-python3.8.3-alpine,0.0,baseline,n/a,gemini/python/base-python3.8.3-alpine,python:3.8.3-alpine
+base-python3.11.8-alpine,0.0,baseline,n/a,gemini/python/base-python3.11.8-alpine,python:3.11.8-alpine

@@ -1,0 +1,23 @@
+#0 building with "desktop-linux" instance using docker driver
+
+#1 [internal] load build definition from Dockerfile
+#1 transferring dockerfile: 110B done
+#1 WARN: FromPlatformFlagConstDisallowed: FROM --platform flag should not use constant value "linux/amd64" (line 1)
+#1 DONE 0.0s
+
+#2 [internal] load metadata for docker.io/library/openjdk:17.0.18-slim
+#2 ERROR: docker.io/library/openjdk:17.0.18-slim: not found
+------
+ > [internal] load metadata for docker.io/library/openjdk:17.0.18-slim:
+------
+
+ [33m1 warning found (use docker --debug to expand):
+[0m - FromPlatformFlagConstDisallowed: FROM --platform flag should not use constant value "linux/amd64" (line 1)
+Dockerfile:1
+--------------------
+   1 | >>> FROM --platform=linux/amd64 openjdk:17.0.18-slim
+   2 |     CMD ["java", "-version"]
+--------------------
+ERROR: failed to build: failed to solve: openjdk:17.0.18-slim: failed to resolve source metadata for docker.io/library/openjdk:17.0.18-slim: docker.io/library/openjdk:17.0.18-slim: not found
+
+View build details: docker-desktop://dashboard/build/desktop-linux/desktop-linux/cj4ajbocm1fnbg4xwhqexi5gh

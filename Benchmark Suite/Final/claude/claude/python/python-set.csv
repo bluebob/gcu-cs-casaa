@@ -1,0 +1,17 @@
+# Last changed: 2026-05-17
+cve_id,cvss_score,affected_library,affected_version,test_case_path,base_image
+base-python3.11-alpine,0.0,baseline,n/a,claude/python/base-python3.11-alpine,python:3.11-alpine
+base-python3.9.1-alpine3.12,0.0,baseline,n/a,claude/python/base-python3.9.1-alpine3.12,python:3.9.1-alpine3.12
+base-python3.8-alpine,0.0,baseline,n/a,claude/python/base-python3.8-alpine,python:3.8-alpine
+base-python3.9-alpine,,,,claude/python/base-python3.9-alpine,python:3.9-alpine
+CVE-2020-14343,9.8,PyYAML,5.3.1,claude/python/CVE-2020-14343,python:3.11-alpine
+CVE-2021-34552,9.8,Pillow,8.2.0,claude/python/CVE-2021-34552,python:3.11-alpine
+CVE-2022-37454,9.8,pysha3,1.0.2,claude/python/CVE-2022-37454,python:3.9-alpine
+CVE-2021-3177,9.8,Python,3.9.1,claude/python/CVE-2021-3177,python:3.9.1-alpine3.12
+CVE-2022-24303,9.1,Pillow,9.0.0,claude/python/CVE-2022-24303,python:3.11-alpine
+CVE-2023-43804,8.1,urllib3,1.26.16,claude/python/CVE-2023-43804,python:3.11-alpine
+CVE-2022-42969,7.5,py,1.11.0,claude/python/CVE-2022-42969,python:3.11-alpine
+CVE-2024-3651,7.5,idna,3.6,claude/python/CVE-2024-3651,python:3.11-alpine
+CVE-2022-31116,7.5,ujson,5.3.0,claude/python/CVE-2022-31116,python:3.9-alpine
+CVE-2021-33503,7.5,urllib3,1.26.4,claude/python/CVE-2021-33503,python:3.11-alpine
+CVE-2021-43818,7.1,lxml,4.6.4,claude/python/CVE-2021-43818,python:3.9-alpine
